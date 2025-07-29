@@ -76,6 +76,8 @@ DATABASES = {
         'NAME': 'netology_orm_migrations',
         'HOST': '127.0.0.1',
         'PORT': '5432',
+        'USER': 'postgres',
+        'PASSWORD': '123',
     }
 }
 
@@ -126,8 +128,10 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 try:
-    from .settings_local import *
+    from .settings_local import * # type: ignore
 except ImportError:
     pass
 
