@@ -20,7 +20,7 @@ Content-Type: application/json
 ###
 
 # обновление датчика
-PATCH {{baseUrl}}/sensors/1/
+PATCH {{baseUrl}}/sensors/3/
 Content-Type: application/json
 
 {
