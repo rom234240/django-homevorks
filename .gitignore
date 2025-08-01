@@ -17,6 +17,7 @@ venv/
 3.3-permissions/api_with_restrictions/.permissions
 2.2-databases-2/m2m-relations/.relations
 2.2-databases-2/orm_migrations/.migrations
+3.4-django-testing/django_testing/.pytest
 
 ### Project specific ###
 settings_local.py
